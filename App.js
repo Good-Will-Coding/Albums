@@ -14,7 +14,7 @@ const instructions = Platform.select({
 export default class App extends Component {
   render() {
     return (
-      <Header />
+      <Header headerText={'Albums'} />
     );
   }
 }

@@ -7,6 +7,7 @@ class AlbumList extends Component {
   state = {
     albums: []
   };
+  
   componentDidMount() {
     axios
       .get("http://rallycoding.herokuapp.com/api/music_albums")
